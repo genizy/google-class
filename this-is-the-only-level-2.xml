@@ -1,0 +1,6 @@
+<Module>
+<ModulePrefs title="This Is The Only Level 2"/>
+<Content type="html">
+<![CDATA[ <center> <script src="https://unpkg.com/@ruffle-rs/ruffle"></script> <script> window.RufflePlayer = window.RufflePlayer || {}; window.RufflePlayer.config = { "autoplay": "off",letterbox: "on","splashScreen": true,"unmuteOverlay": "hidden","quality": "high" }; window.addEventListener("load", (event) => { const ruffle = window.RufflePlayer.newest(); const player = ruffle.createPlayer(); const container = document.getElementById("container"); container.appendChild(player); player.load("https://cdn.jsdelivr.net/gh/Mr-milky-way/this-is-the-only-level-2@2dde7aa109c52cea0eb59d4de44708c2746d262d/level2.swf"); player.style.width = "100%"; player.style.height = "100%"; }); </script><div id="container"></div> </center> ]]>
+</Content>
+</Module>
