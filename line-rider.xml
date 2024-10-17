@@ -1,0 +1,6 @@
+<Module>
+<ModulePrefs title="Line Rider"/>
+<Content type="html">
+<![CDATA[ <center> <script src="https://unpkg.com/@ruffle-rs/ruffle"></script> <script> window.RufflePlayer = window.RufflePlayer || {}; window.RufflePlayer.config = { "autoplay": "off",letterbox: "on","splashScreen": true,"unmuteOverlay": "hidden","quality": "high" }; window.addEventListener("load", (event) => { const ruffle = window.RufflePlayer.newest(); const player = ruffle.createPlayer(); const container = document.getElementById("container"); container.appendChild(player); player.load("https://cdn.jsdelivr.net/gh/Aydeniguess/Collegegrounds@5ecd84f45d20a5f5f2f5e708d8c8da132be8751c/games/Line_Rider_2.swf"); player.style.width = "100%"; player.style.height = "100%"; }); </script><div id="container"></div> </center> ]]>
+</Content>
+</Module>
