@@ -1,0 +1,6 @@
+<Module>
+<ModulePrefs title="Baldi's Basics"/>
+<Content type="html">
+<![CDATA[ <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/usernamegth/diamondmine@ce3f014d7468d26e578a23de7773ddeb4f40b24f/gs/gsfiles/basics/TemplateData/style.css"> <script src="https://cdn.jsdelivr.net/gh/usernamegth/diamondmine@ce3f014d7468d26e578a23de7773ddeb4f40b24f/gs/gsfiles/basics/TemplateData/UnityProgress.js"></script> <script src="https://cdn.jsdelivr.net/gh/usernamegth/diamondmine@ce3f014d7468d26e578a23de7773ddeb4f40b24f/gs/gsfiles/basics/baldi.js"></script> <script> var gameInstance = UnityLoader.instantiate("gameContainer", "https://cdn.jsdelivr.net/gh/usernamegth/diamondmine@ce3f014d7468d26e578a23de7773ddeb4f40b24f/gs/gsfiles/basics/baldi.json", {onProgress: UnityProgress,Module:{onRuntimeInitialized: function() {UnityProgress(gameInstance, "complete")}}}); </script> <div class="webgl-content"> <div id="gameContainer" style="width: 100vw; height: 100vh"></div> </div> ]]>
+</Content>
+</Module>
