@@ -1,0 +1,6 @@
+<Module>
+<ModulePrefs title="Cubefield"/>
+<Content type="html">
+<![CDATA[ <object xmlns="http://www.w3.org/1999/xhtml" data="https://cdn.jsdelivr.net/gh/StarRepo444/ClassroomPlayV2@c28ef0cfdccbbfc61a42d9954f14af3115c7398a/games/flash/swf/cubefield.swf" height="100%" type="application/x-shockwave-flash" width="100%"><param name="movie" value="" /> </object><script src="https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.1.0-nightly.2023.11.10/ruffle.js"></script> ]]>
+</Content>
+</Module>
