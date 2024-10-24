@@ -44,7 +44,7 @@
       };
       var origOpen = XMLHttpRequest.prototype.open;
       XMLHttpRequest.prototype.open = function (...args) {
-        if (!args[1].includes("arc.io")) args[1] = /^http/.test(args[1]) ? "https://onebigstatic-tmm.tbt.mx/static/" + args[1] : args[1];
+        if (!args[1].includes("arc.io")) args[1] = args[1];
         origOpen.apply(this, args);
       };
       var gameInstance = UnityLoader.instantiate("gameContainer", "https://cdn.jsdelivr.net/gh/genizy/google-class/slop/Build/slope_27Sept.json", {
