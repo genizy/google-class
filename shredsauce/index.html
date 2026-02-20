@@ -128,6 +128,7 @@
         createUnityInstance(canvas, config, (progress) => {
           progressBarFull.style.width = 100 * progress + "%";
         }).then((unityInstance) => {
+          loadingText.remove();
           loadingBar.style.display = "none";
         }).catch((message) => {
         });
