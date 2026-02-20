@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
-    <base href="https://cdn.jsdelivr.net/gh/web-ports/google-class@main/shredsauce/">
+    <base href="https://cdn.jsdelivr.net/gh/genizy/google-class@main/shredsauce/">
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Unity Web Player | ShredSauce</title>
@@ -95,7 +95,7 @@
       var config = {
         arguments: [],
         dataUrl: dataUrl,
-        frameworkUrl: buildUrl + "/27d62b0e2b6b5395d065daa60a46cecf.framework.js.gz",
+        frameworkUrl: buildUrl + "/framework.js",
         codeUrl: wasmUrl,
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Shredsauce",
@@ -132,8 +132,8 @@
         }).catch((message) => {
         });
       };
-    });
       document.body.appendChild(script);
+    })();
     </script>
   </body>
 </html>
