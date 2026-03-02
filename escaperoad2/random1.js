@@ -17823,36 +17823,7 @@ document.addEventListener("DOMContentLoaded", function () {
 window.addEventListener("beforeunload", function (_0x4fcdeb) {
   gmEvent("unload-game");
 });
-(function (_0x5eb784, _0x20b70a) {
-  function _0x3363f1(_0x5a9422, _0x2f33f6, _0x5e10e0, _0x42e0d9, _0x5d524e) {
-    return _0x4a85(_0x2f33f6 - 401, _0x5a9422);
-  }
-  const _0x27c484 = _0x5eb784();
-  function _0x406558(_0x24f629, _0x19d280, _0x43457a, _0x57887b, _0x563bd4) {
-    return _0x4a85(_0x19d280 - 559, _0x563bd4);
-  }
-  function _0x5c45d6(_0x39dc6d, _0x213e0e, _0x55d804, _0x2866b4, _0x2a09ba) {
-    return _0x4a85(_0x39dc6d - 676, _0x2866b4);
-  }
-  function _0x3f613a(_0x392ab0, _0x420032, _0x74e073, _0x57f1b6, _0xe67e4d) {
-    return _0x4a85(_0x74e073 - 992, _0x57f1b6);
-  }
-  function _0xc34e32(_0x24d2af, _0x398eed, _0x1eb8a8, _0x1d8b5b, _0xf1637a) {
-    return _0x4a85(_0x1d8b5b - -617, _0x24d2af);
-  }
-  while (true) {
-    try {
-      const _0x30f209 = -parseInt(_0x406558(881, 862, 904, 847, "$CeX")) / 1 + -parseInt(_0x3f613a(1318, 1321, 1308, "6RXV", 1290)) / 2 * (parseInt(_0x406558(929, 884, 886, 896, "5y3m")) / 3) + parseInt(_0x406558(792, 799, 753, 807, "w*)&")) / 4 + -parseInt(_0x3363f1("!WBV", 758, 775, 818, 747)) / 5 + -parseInt(_0x406558(817, 823, 850, 819, "KpH6")) / 6 + -parseInt(_0x406558(826, 793, 822, 781, "!L32")) / 7 + parseInt(_0x3363f1("4jLz", 687, 677, 646, 687)) / 8 * (parseInt(_0x3f613a(1381, 1414, 1355, "4jLz", 1341)) / 9);
-      if (_0x30f209 === _0x20b70a) {
-        break;
-      } else {
-        _0x27c484.push(_0x27c484.shift());
-      }
-    } catch (_0x1c28e8) {
-      _0x27c484.push(_0x27c484.shift());
-    }
-  }
-})(_0xf827, 620652);
+
 function _0x5692c3(_0x5809b3, _0x170073, _0x5a3b6d, _0x198b05, _0xf21f8b) {
   return _0x4a85(_0x5a3b6d - -620, _0x5809b3);
 }
