@@ -17742,7 +17742,6 @@ var unityFramework = (() => {
     }
     _0x5df6e1();
     return _0x44b9c9.ready;
-  };
 })();
 if (typeof exports === "object" && typeof module === "object") {
   module.exports = unityFramework;
